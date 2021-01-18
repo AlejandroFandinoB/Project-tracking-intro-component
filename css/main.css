@@ -25,6 +25,7 @@ body{
 	font-family: 'Barlow', sans-serif;
     font-size: 1.2em;
     overflow-x: hidden;
+    /* height: 100%; */
 }
 
 body::after {
@@ -78,7 +79,8 @@ p {
     margin:0 auto;
     display: flex;
 	align-items: center;
-	justify-content: space-between;
+    justify-content: space-between;
+    
 }
 
 .row{
@@ -175,6 +177,11 @@ p {
 	transform: rotate(135deg);
 }
 /* =============== CONTENIDO PRINCIPAL ================= */
+main{
+    display: flex;
+	align-items: center;
+    height: 700px;
+}
 h1 {
 	font-size: 5em;
 	margin: 0;
@@ -243,7 +250,7 @@ h3 {
 /* ================= WEB RESPONSIVE ===================== */
 @media(max-width:768px){
     body {
-		font-size: 1em;
+        font-size: 1em;
 	}
 
 	h1 {
